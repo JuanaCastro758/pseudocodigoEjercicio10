@@ -1,0 +1,18 @@
+Proceso Ejercicio_10
+	s<-0
+	m6<-0
+	Mientras s<=1000 Hacer
+		Escribir 'Ingresar numero'
+		Leer n1
+		Si (n1 MOD 6==0) Entonces
+			m6<-m6+1
+		FinSi
+		Si (n1<=10) Y (n1>=1) Entonces
+			s<-s+1
+		FinSi
+		s<-s+n1
+	FinMientras
+	Escribir 'la suma de las temperaturas es: ',s
+	Escribir 'La cantidad de multiplos de 6 es: ',m6
+FinProceso
+
